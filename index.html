@@ -19,7 +19,8 @@
     <td>Styles</td>
     <td>Elements</td>
   </tr>
-</table>
+</table><br><br>
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -27,14 +28,18 @@
     <h1>The nav element</h1>
 
     <p>The nav element defines a set of navigation links:</p>
-    
     <nav>
-    <a href="/home/">home</a> |
-    <a href="/about/">about</a> |
-    <a href="/work/">work</a> |
-    <a href="/resume/">resume</a> |
-    <a href="/contact/">contact</a>
-    </nav>
+      <ul>
+        <form>
+          Search <input type = "text" name = "search" />
+        </form>        
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">work</a></li>
+      <li><a href="#">resume</a></li>
+      <li><a href="#">contact</a></li>
+      </ul>
+    </nav>  
 
   </header>
 
@@ -42,24 +47,24 @@
     <h1>The section element</h1>
 
     <section>
-      <h2>about</h2>
-      <p>Un développeur web est un informaticien spécialisé dans la programmation ou expressément impliqué dans le développement des applications du web, ou des applications qui sont exécutées à partir d'un serveur web sur un navigateur web et qui utilisent le protocole HTTP comme vecteur de transmission de l'information.</p>
+      <h class="a15">about</h>
+      <p class="a16">Un développeur web est un informaticien spécialisé dans la programmation ou expressément impliqué dans le développement des applications du web, ou des applications qui sont exécutées à partir d'un serveur web sur un navigateur web et qui utilisent le protocole HTTP comme vecteur de transmission de l'information.</p>
     </section>
 
     <section>
-      <h2>work</h2>
-      <p>A web developer is a programmer who develops World Wide Web applications using a client–server model.</p>
+      <h2 class="a17">work</h2>
+      <p class="a18">A web developer is a programmer who develops World Wide Web applications using a client–server model.</p>
     </section>
 
 
     <section>
-      <h2>resume</h2>
-      <p>Les développeurs web peuvent travailler dans différents types d'organisations, y compris les grandes sociétés et les gouvernements, les petites et moyennes entreprises</p>
+      <h2 class="a19">resume</h2>
+      <p class="a20">Les développeurs web peuvent travailler dans différents types d'organisations, y compris les grandes sociétés et les gouvernements, les petites et moyennes entreprises</p>
     </section>
 
     <section>
-      <h2>contact</h2>
-      <p>The links on the left should direct you to how to contact us or resolve problems. If you cannot find your issue listed there, you can email helpful, experienced volunteers at info-en@wikimedia.org</p>
+      <h2 class="a21">contact</h2>
+      <p class="a22">The links on the left should direct you to how to contact us or resolve problems. If you cannot find your issue listed there, you can email helpful, experienced volunteers at info-en@wikimedia.org</p>
     </section>
     <div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/_btGs-UIIh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -88,6 +93,9 @@
 
       <input type="submit" value="Submit" />
     </form>
+    <textarea name="message" cols="30" rows="5">
+      Welcome to my first website
+  </textarea>
   </footer>
 
 </body>
